@@ -12,7 +12,7 @@ while count != 0:
     a = int(input('Guess the number: '))
 
     if a == n:
-        print("Yay! That's right. You won!")
+        print("Yay! That's right. You won!!!")
         break
     elif a > n:
         print('The number is less than ', a)
@@ -21,7 +21,7 @@ while count != 0:
     count -= 1
 
     if count == 0:
-        print("Sorry, you've run out of guesses. The number was", n)
+        print("Sorry, you've run out of guesses. The xorrect number was", n)
 
 
 
