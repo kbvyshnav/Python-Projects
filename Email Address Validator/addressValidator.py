@@ -7,9 +7,10 @@ def addressVal(address):
         print("Invalid address, '@' missing ")
     else:
         print("Valid email address")
-
-print("---Email Validator---")
+        print("------------------------")
+        
 while(True):
+    print("---Email Validator---")
     print("A valid email address needs an '@' symbol and a '.'")
     x = input("Input your email address: ")
 
