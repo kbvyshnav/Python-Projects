@@ -21,6 +21,9 @@ class BankAccount(ABC):
         # Private attribute: balance
         self.__balance = balance
 
+    def __str__(self):
+        return f"Account Name : {self.name}"
+
     def deposit(self, amount):
         # Validate deposit amount
         if amount > 0:
@@ -101,9 +104,9 @@ accounts = [
     CurrentAccount("Anu", 3000)
 ]
 
-
 # Same method call behaves differently based on object type
 for acc in accounts:
-    acc.withdraw(700)
+    print(acc)
+    acc.withdraw(300)
     acc.show_balance()
     print("--------")
