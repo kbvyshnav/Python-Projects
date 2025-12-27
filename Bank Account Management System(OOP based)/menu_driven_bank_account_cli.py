@@ -10,9 +10,6 @@ class BankAccount(ABC):
         self.name = name
         self.__balance = balance
 
-    def __str__(self):
-        return f"Account Name : {self.name}"
-
     def deposit(self, amount):
         if amount > 0:
             self.__balance += amount
