@@ -31,3 +31,4 @@ while gc < ch:
 
     else:
         print("You ran out of chances..")
+        break
