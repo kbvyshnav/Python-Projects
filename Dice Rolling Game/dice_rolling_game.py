@@ -8,7 +8,8 @@ while True:
         print(f"({die1}, {die2})")
     elif choice == 'n':
         print("Thank you for playing !")
-    else:
-        print("Invalid Choice !!")
         break
+    else:
+        print("Invalid Choice !!, please enter (y/n).")
+        
 
