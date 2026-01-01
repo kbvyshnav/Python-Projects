@@ -1,15 +1,15 @@
 import random
 
-ROCK = "r"
-PAPER = "p"
-SCISSOR = "s"
+ROCK = "1"
+PAPER = "2"
+SCISSOR = "3"
 
 emojis = {ROCK : "🪨" , PAPER : "📃" , SCISSOR : "✂️"}
 choices = tuple(emojis.keys())
 
 def get_user_choice():
     while True:
-        user_choice = input("Rock,Paper or Scissors? (r,p,s): ").lower()
+        user_choice = input("Rock,Paper or Scissors? (1,2,3): ").lower()
         if user_choice in choices:
             return user_choice
         else:
