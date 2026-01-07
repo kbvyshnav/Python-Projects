@@ -20,7 +20,7 @@ class Elibrary:
             print(f"{i}. {b['title']} by {b['author']} - {b['status']}")
         print()
 
-    #borrowing method ➡️ used o borrow a book
+    #borrowing method ➡️ used of borrow a book
 
     def borrow(self,i):
         if 0<i<=len(self.books):
