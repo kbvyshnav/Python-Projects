@@ -12,13 +12,13 @@ class Elibrary:
 
     def view(self):
         if not self.books:
-            print("\nNo books yet!\n");return
+            print("\nNo books yet!\n");return ##
         
         print("\n------ Book List ------\n")
 
         for i,b in enumerate(self.books,1):
             print(f"{i}. {b['title']} by {b['author']} - {b['status']}")
-        print()
+        print() 
 
     #borrowing method ➡️ used of borrow a book
 
@@ -77,7 +77,7 @@ while True:
     print("4. Return ➡️ Return a book")
     print("5. Search ➡️ Search a title/author")
     print("6. Remove ➡️ Remove a book")
-    print("7. Statitics ➡️ Show library stats")
+    print("7. Statitics ➡️ Show library statistics")
     print("8. Exit ➡️ Quit program\n")
 
     c=input("Choice : ")
